@@ -1,7 +1,7 @@
 import streamlit as st
-from predict import predict
+from app.predict import predict
 
-st.title("Cirrhosis Death Predictor")
+st.title("Cirrhosis Death Predictor SUML")
 
 # create empty dictionary
 user_input = {}
