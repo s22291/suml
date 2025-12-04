@@ -1,5 +1,5 @@
 import streamlit as st
-from app.predict import predict
+from predict import predict
 
 st.title("Cirrhosis Death Predictor SUML")
 
