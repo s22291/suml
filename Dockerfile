@@ -3,6 +3,7 @@ FROM python:3.11-slim
 
 # 2. working directory inside container
 WORKDIR /app
+ENV PYTHONPATH="/app"
 
 # 3. copy your entire project into the container
 COPY . .
