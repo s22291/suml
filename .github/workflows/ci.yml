@@ -27,7 +27,7 @@ jobs:
       run: uv add pytest
 
     - name: Run tests
-      run: pytest
+      run: uv run pytest
 
     - name: Log in to GHCR
       uses: docker/login-action@v3
